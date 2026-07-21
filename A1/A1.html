@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="A1.css">
+    <title>Pokémon</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <button class="menu-btn">☰</button>
+            <img src="logo.png" alt="Pokémon" class="logo">
+            <button class="theme-btn">☀️</button>
+        </div> 
+            
+    </header>
+
+    <section class="top">
+        <div id="search">
+            <span class="search-icon">🔍</span>
+            <input type="text" placeholder="Search for a Pokémon...">
+        </div>
+
+        <div class="right">
+            <select>
+                <option value="all">Filter by types (1)</option>
+                <option value="fire">Fire</option>
+                <option value="water">Water</option>
+                <option value="grass">Grass</option>
+                <option value="electric">Electric</option>
+            </select>
+            <button class="filter-btn">⇅</button>
+        </div>
+    </section>
+
+    <section class="pokemon-grid">
+        <div class="pokemon-card grass">
+            <div class="pokemon-id">#0908</div>
+            <img src="p1.png" alt="Meowscarada" class="pokemon-image">
+            <div class="pokemon-types">
+                <span class="type-badge">🌿 GRASS</span>
+            </div>
+            <h2 class="pokemon-name">Meowscarada</h2>
+            <div class="pokemon-footer">
+                <div class="pokemon-type-text">🌿 GRASS</div>
+                <button class="favorite-btn">♡</button>
+            </div>
+        </div>
+
+        <div class="pokemon-card dark">
+            <div class="pokemon-id">#0624</div>
+            <img src="p2.png" alt="Pawniard" class="pokemon-image">
+            <div class="pokemon-types">
+                <span class="type-badge">⚫ DARK / STEEL</span>
+            </div>
+            <h2 class="pokemon-name">Pawniard</h2>
+            <div class="pokemon-footer">
+                <div class="pokemon-type-text">⚫ DARK / STEEL</div>
+                <button class="favorite-btn">♡</button>
+            </div>
+        </div>
+
+        <div class="pokemon-card fire">
+            <div class="pokemon-id">#0229</div>
+            <img src="p3.png" alt="Houndoom" class="pokemon-image">
+            <div class="pokemon-types">
+                <span class="type-badge">🔥 DARK / FIRE</span>
+            </div>
+            <h2 class="pokemon-name">Houndoom</h2>
+            <div class="pokemon-footer">
+                <div class="pokemon-type-text">🔥 DARK / FIRE</div>
+                <button class="favorite-btn">♡</button>
+            </div>
+        </div>
+
+        <div class="pokemon-card psychic">
+            <div class="pokemon-id">#0686</div>
+            <img src="p4.png" alt="Inkay" class="pokemon-image">
+            <div class="pokemon-types">
+                <span class="type-badge">💜 DARK / PSYCHIC</span>
+            </div>
+            <h2 class="pokemon-name">Inkay</h2>
+            <div class="pokemon-footer">
+                <div class="pokemon-type-text">💜 DARK / PSYCHIC</div>
+                <button class="favorite-btn">♡</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-item">
+                <span class="footer-icon">🔍</span>
+                <h3>Explore</h3>
+                <p>Discover all your favorite Pokémon</p>
+            </div>
+            <div class="footer-item">
+                <span class="footer-icon">🌿</span>
+                <h3>Filter</h3>
+                <p>Find Pokémon by types and abilities</p>
+            </div>
+            <div class="footer-item">
+                <span class="footer-icon">⭐</span>
+                <h3>Collection</h3>
+                <p>Save and manage your collection</p>
+            </div>
+            <div class="footer-item">
+                <span class="footer-icon">👤</span>
+                <h3>Stats</h3>
+                <p>View stats and learn about Pokémon</p>
+            </div>
+        </div>
+        <p class="copyright">© 2026 Pokémon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
