@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  background-image: url("bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+  /* 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10% 60% 30%;
+
+  grid-template-areas:
+    "header header"
+    "section-left section-right"
+    "bottom-section bottom-section"; */
+}
+
+/* .header {
+  grid-area: header;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-left {
+  grid-area: section-left;
+}
+
+.section-right {
+  grid-area: section-right;
+}
+
+.bottom-section {
+  grid-area: bottom-section;
+} */
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.main-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.button {
+  padding: 10px;
+}
+
+.button1 {
+  padding: 10px;
+  border-radius: 10%;
+  background-color: black;
+  color: blueviolet;
+  font-weight: 500;
+}
+.button2 {
+  padding: 10px;
+  border-radius: 10%;
+  background-color: black;
+  color: rgb(226, 43, 177);
+  font-weight: 500;
+}
+
+.cards {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 20px;
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid blueviolet;
+}
