@@ -441,7 +441,6 @@ STATISTICS
 
   font-size: 18px;
 }
-
 /*=========================================
 SECTION TITLE
 =========================================*/
@@ -909,8 +908,6 @@ RESPONSIVE
 
   .hero-center img {
     width: 350px;
-    position: relative;
-    z-index: 10;
   }
 
   .section-title h2 {
@@ -937,7 +934,6 @@ RESPONSIVE
     justify-content: center;
   }
 }
-
 /*==============================
 ANIMATIONS
 ===============================*/
@@ -1176,7 +1172,6 @@ SELECTION
   background: #16ffe3;
   color: #000;
 }
-
 /*==================================
 BACKGROUND GLOW
 ==================================*/
